@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>키친마이야르 반응형 웹사이트</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/index.js"></script>
+	
+	<!--구글 웹폰트: 나눔명조(굵기: 400/700/800),나눔명조(굵기: 400/700/800) -->
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+	
+	<!--구글 웹폰트 (구글 머티리얼 아이콘) -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<header>
+	<h1>
+		<button type="button" class="open">&#9776;</button>
+		<button type="button" class="close">&#10005;</button>
+		<a href="#"><img src="images/rogo.png" alt="키친마이야르 로고"></a>
+	</h1>
+	<nav>
+		<ul>
+			<li>
+				<a href="#" class="arr">소개</a>
+				<nav>
+					<a href="#">키친마이야르 인사말</a>
+					<a href="#">키친마이야르 특징</a>
+				</nav>
+			</li>
+			<li>
+				<a href="#" class="arr">메뉴</a>
+				<nav>
+					<a href="#">일품요리</a>
+					<a href="#">런치</a>
+					<a href="#">디너</a>
+					<a href="#">주류 및 음료</a>
+				</nav>
+			</li>
+			<li>
+				<a href="#">유튜브</a>
+			</li>
+			<li>
+				<a href="#" class="arr">협력업체</a>
+				<nav>
+					<a href="#">연회코스</a>
+					<a href="#">연회부페</a>
+				</nav>
+			</li>
+			<li>
+				<a href="#">오시는길</a>
+			</li>
+			<li>
+				<a href="#">문의하기</a>
+			</li>
+		</ul>
+	</nav>
+	<div id="white"></div>
+</header>
+
+<section id="banner">
+	<h2>비주얼 배너</h2>
+	<a href="#" title="클릭하면 회사소개 페이지로 이동합니다."><img src="images/hall.png" alt="키친마이야르 내부전경"></a>
+</section>
+
+<section id="sec02">
+	<h2 class="h2">
+		<ruby>
+			대표 메뉴
+			<rt>Main Menu</rt>
+		</ruby>
+	</h2>
+	<hr class="line">
+	<div id="sec02_list">
+		<section>
+			<a href="#"><img src="images/1.jpeg" alt="연어포케"></a>
+			<div>
+				<h3>
+					<ruby>
+						연어포케
+						<rt>SALMON POKE</rt>
+					</ruby>					
+				</h3>
+				<p>25,000</p>
+			</div>
+		</section>
+		<section>
+			<a href="#"><img src="images/2.jpeg" alt="통골뱅이 냉파스타"></a>
+			<div>
+				<h3>
+					<ruby>
+						통골뱅이 냉파스타
+						<rt>SEA SNAIL COLD PASTA</rt>
+					</ruby>					
+				</h3>
+				<p>26,000</p>
+			</div>
+		</section>
+		<section>
+			<a href="#"><img src="images/3.png" alt="소보로 파스타"></a>
+			<div>
+				<h3>
+					<ruby>
+						소보로 파스타
+						<rt>STREUSEL PASTA</rt>
+					</ruby>					
+				</h3>
+				<p>19,000</p>
+			</div>
+		</section>
+		<section>
+			<a href="#"><img src="images/4.png" alt="상하이 크림파스타"></a>
+			<div>
+				<h3>
+					<ruby>
+						상하이 크림파스타
+						<rt>SHANGHAI CREAM PASTA</rt>
+					</ruby>					
+				</h3>
+				<p>25,000</p>
+			</div>
+		</section>
+		<section>
+			<a href="#"><img src="images/5.jpeg" alt="커리소스 황금볶음밥"></a>
+			<div>
+				<h3>
+					<ruby>
+						커리소스 황금볶음밥
+						<rt>GOLDEN FRIED RICE WITH CRAB CURRY SAUCE</rt>
+					</ruby>					
+				</h3>
+				<p>19,000</p>
+			</div>
+		</section>
+		<section>
+			<a href="#"><img src="images/6.jpeg" alt="쯔란 갈비 리조또"></a>
+			<div>
+				<h3>
+					<ruby>
+						쯔란 갈비 리조또
+						<rt>GALBI CUBE STEAK & MUSHROOM RISOTTO</rt>
+					</ruby>					
+				</h3>
+				<p>32,000</p>
+			</div>
+		</section>
+		<section>
+			<a href="#"><img src="images/7.png" alt="마이야르 저크 치킨"></a>
+			<div>
+				<h3>
+					<ruby>
+						마이야르 저크 치킨
+						<rt>ROASTED JERK CHICKEN</rt>
+					</ruby>					
+				</h3>
+				<p>29,000</p>
+			</div>
+		</section>
+		<section>
+			<a href="#"><img src="images/8.png" alt="마이야르 스테이크"></a>
+			<div>
+				<h3>
+					<ruby>
+						마이야르 스테이크
+						<rt>Royal Cassercole</rt>
+					</ruby>					
+				</h3>
+				<p>37,000</p>
+			</div>
+		</section>
+	</div>
+</section>
+
+<a href="#" class="linkBtn">메뉴 전체 보기</a>
+
+<div id="sec03">
+	<section>
+		<a href="#"><img src="images/open.jpg" alt="오픈"></a>
+		<h2>
+			<ruby>
+				영업시간
+				<rt>Open</rt>
+			</ruby>			
+		</h2>
+		<p>11:30 - 21:00 영업합니다.</p>
+	</section>
+	<section>
+		<a href="#"><img src="images/breaktime.jpg" alt="브레이크타임"></a>
+		<h2>
+			<ruby>
+				브레이크 타임
+				<rt>BreakTime</rt>
+			</ruby>			
+		</h2>
+		<p>15:00-17:30 더 좋은 서비스를 위한 브레이크 타임.</p>
+	</section>
+	<section>
+		<a href="#"><img src="images/last.jpg" alt="라스트오더"></a>
+		<h2>
+			<ruby>
+				라스트오더
+				<rt>LastOder</rt>
+			</ruby>			
+		</h2>
+		<p>마지막 주문은 20:30까지입니다.</p>
+	</section>
+</div>
+<!--<iframe  id="mp4"  allowfullscreen title="youtube Video Player" src="https://youtu.be/5PjA-VXe1Go"></iframe>-->
+<iframe id="mp4" src="https://www.youtube.com/embed/5PjA-VXe1Go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr class="line">
+<section id="sec04">
+	<h2 class="h2">
+		<ruby>
+			키친 마이야르는
+			<rt>About Kitchen Maillard</rt>
+		</ruby>
+	</h2>
+	<p>
+		KITCHEN & LIVE STUDIO by 승우아빠
+		키친 마이야르는 음식을 중심으로 다양한 콘텐츠가 펼쳐지는<br>
+		키친 & 라이브 스튜디오입니다.
+	</p>
+	<a href="https://app.catchtable.co.kr/ct/shop/kitchenmaillard" class="linkBtn">예약 하러가기</a>
+</section>
+<section id="location">
+	<img src="images/footer01.jpg" alt="오시는 길">
+	<h2 class="h2">		
+		<ruby>
+			키친 마이야르는
+			<rt>About Kitchen Maillard</rt>
+		</ruby>
+	</h2>
+	<hr class="line">
+	<h3>주의해주세요!</h3>
+	<p>
+		&#10075;<strong>키친 마이야르</strong>&#10076;는 <span>전화 예약 및 문의가</span> 어렵습니다. <br>&#10075;키친 마이야르&#10076; 문의 : kichen.maillard@sandboxsquare.net
+	</p>
+	<div id="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.211294197078!2d127.0353735!3d37.526516199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca388a5525f85%3A0xa52a341a30f59634!2z7ISc7Jq47Yq567OE7IucIOqwleuCqOq1rCDsi6Dsgqzrj5kgNjQ0LTY!5e0!3m2!1sko!2skr!4v1660034466579!5m2!1sko!2skr"></iframe>
+		<p><img src="images/map2.jpg" alt="약도"></p>
+	</div>
+	<p>주소: 서울특별시 강남구 신사동 644-6 | 영업시간: 11:30 – 21:00 (화~토) | 브레이크타임: 15:00 - 17:30</p>
+</section>
+
+<footer>
+	<p id="partner">협력업체 &#8744;</p>
+	<nav>
+		<a href="#">인터준(돌복대여)</a>
+		<a href="#">꽃향기 플라워</a>
+		<a href="#">아구아구 베이비 스튜디오</a>
+	</nav>
+	<p>
+		한서 외식산업 (주) 한정식 한우리 | Adress. 서울 강남구 도산대로 308 한서빌딩 B1, 3, 4, 5층 | Tel. 02-541-4270<br>
+		Copyrightⓒ2019 HAWOORI RESTAURANT. All Right Reserved.
+	</p>
+	<a href="#"><img src="images/rogo.png" alt="하단 로고"></a>
+	<!--<a href="#"><img src="images/footer_logo_boda.jpg" alt="하단 보다 로고"></a>-->
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
