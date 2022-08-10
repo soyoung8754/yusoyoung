@@ -34,7 +34,7 @@ a {
 
 /*상단*/
 header {
-			padding-top:30px;
+			padding-top:30px;		
 }
 header> h1 button {
 		display:none;
@@ -49,6 +49,11 @@ header> h1 a {
 header> nav	{
 		border-top:1px solid #ccc; 
 		margin-top:50px; 
+		}
+#leftBg {		
+		height:55vh;
+		height:max-height:600px;
+		display:none;
 }
 #white {
 		position:absolute;
@@ -296,6 +301,10 @@ header li:nth-child(4) nav	{width:200%;}
 #map > * {flex:1;}
 #map + p {padding-top:20px;}
 
+
+#mp4 {border:none;}
+
+
 /*하단*/
 footer {
 		background:#111;
@@ -377,13 +386,16 @@ footer> a:last-child {margin-left:20px;}
 				left:-100vw; 
 				overflow:hidden;
 			}
-			header>nav li>a.arr::after {
+			
+			#leftBg {display:block;}
+			header>nav li>a.arr1::after {
 						content:"▼"; 
 						float:right; 
 						color:gray;
 			}
-			header>nav li:hover>a.arr::after{
+			header>nav li>a.arr2::after{
 						content:"▲"; 
+						float:right; 
 						color:#ddd;
 			}
 			header ul { flex-direction:column; }
@@ -414,7 +426,7 @@ footer> a:last-child {margin-left:20px;}
 			}
 			
 			/*유튜브동영상 아이프레임*/
-			#mp4 { height:300px;  }	
+			#mp4 { height:300px; }	
 			#sec04 p { width:90%;}
 			
 			/*구글지도+약도*/
